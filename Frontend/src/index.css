@@ -1,0 +1,148 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Enhanced Telecom Port Management System with Vibrant Colors */
+
+@layer base {
+  :root {
+    /* Core Brand Colors - Enhanced with Vibrant Palette */
+    --primary: 214 95% 25%;
+    --primary-foreground: 0 0% 98%;
+    --primary-light: 214 85% 35%;
+    --primary-dark: 214 100% 15%;
+    --primary-gradient: linear-gradient(135deg, hsl(214 95% 25%), hsl(214 85% 35%));
+    
+    /* Vibrant Accent Colors */
+    --accent: 45 93% 47%;
+    --accent-foreground: 215 25% 15%;
+    --accent-light: 45 85% 60%;
+    --accent-gradient: linear-gradient(135deg, hsl(45 93% 47%), hsl(45 85% 60%));
+    
+    /* Status Colors - Enhanced */
+    --success: 142 71% 45%;
+    --success-foreground: 0 0% 98%;
+    --success-light: 142 60% 60%;
+    --success-gradient: linear-gradient(135deg, hsl(142 71% 45%), hsl(142 60% 60%));
+    
+    --warning: 38 92% 50%;
+    --warning-foreground: 215 25% 15%;
+    --warning-light: 38 85% 65%;
+    --warning-gradient: linear-gradient(135deg, hsl(38 92% 50%), hsl(38 85% 65%));
+    
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
+    --destructive-light: 0 75% 70%;
+    --destructive-gradient: linear-gradient(135deg, hsl(0 84% 60%), hsl(0 75% 70%));
+    
+    --info: 199 89% 48%;
+    --info-foreground: 0 0% 98%;
+    --info-light: 199 80% 60%;
+    --info-gradient: linear-gradient(135deg, hsl(199 89% 48%), hsl(199 80% 60%));
+    
+    /* Purple Tech Colors */
+    --purple: 271 81% 56%;
+    --purple-foreground: 0 0% 98%;
+    --purple-light: 271 70% 70%;
+    --purple-gradient: linear-gradient(135deg, hsl(271 81% 56%), hsl(271 70% 70%));
+    
+    /* Orange Energy Colors */
+    --orange: 25 95% 53%;
+    --orange-foreground: 0 0% 98%;
+    --orange-light: 25 85% 65%;
+    --orange-gradient: linear-gradient(135deg, hsl(25 95% 53%), hsl(25 85% 65%));
+    
+    /* Background System */
+    --background: 0 0% 100%;
+    --foreground: 215 25% 15%;
+    --background-secondary: 214 32% 97%;
+    --background-gradient: linear-gradient(135deg, hsl(0 0% 100%), hsl(214 32% 97%));
+    
+    /* Card System with Colors */
+    --card: 0 0% 100%;
+    --card-foreground: 215 25% 15%;
+    --card-header: 214 32% 97%;
+    --card-gradient: linear-gradient(145deg, hsl(0 0% 100%), hsl(214 32% 97%));
+    
+    /* Interactive Elements */
+    --secondary: 214 20% 88%;
+    --secondary-foreground: 214 95% 25%;
+    
+    /* Neutral System */
+    --muted: 214 20% 92%;
+    --muted-foreground: 215 16% 47%;
+    --border: 214 20% 88%;
+    --input: 214 20% 88%;
+    --ring: 214 95% 25%;
+    
+    /* Popover System */
+    --popover: 0 0% 100%;
+    --popover-foreground: 215 25% 15%;
+
+    --radius: 0.5rem;
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 212.7 26.8% 83.9%;
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
