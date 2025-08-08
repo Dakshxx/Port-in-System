@@ -1,0 +1,1 @@
+const express = require('express'); const router = express.Router(); const { getPortOut } = require('../controllers/portOutController'); const auth = require('../middlewares/authMiddleware'); router.get('/', auth, getPortOut); module.exports = router;
